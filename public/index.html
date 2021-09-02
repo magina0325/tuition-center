@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Bingo One page parallax responsive HTML Template ">
+
+    <meta name="author" content="Themefisher.com">
+    <title>Beyond Tuition Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="/plugins/themefisher-font/style.css">
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/plugins/lightbox2/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="/plugins/animate/animate.css">
+    <link rel="stylesheet" href="/plugins/slick/slick.css">
+
+    <!-- PWA links -->
+    <meta name="theme-color" content="white" />
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Beyond Tuition Center">
+    <meta name="apple-mobile-web-app-title" content="Beyond Tuition Center">
+    <meta name="msapplication-navbutton-color" content="white">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/index.html">
+
+    <link rel="icon" sizes="128x128" href="/images/app-icon/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="/images/app-icon/icon-128x128.png">
+    <link rel="icon" sizes="192x192" href="/images/app-icon/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/images/app-icon/icon-192x192.png">
+    <link rel="icon" sizes="256x256" href="/images/app-icon/icon-256x256.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/images/app-icon/icon-256x256.png">
+    <link rel="icon" sizes="384x384" href="/images/app-icon/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="/images/app-icon/icon-384x384.png">
+    <link rel="icon" sizes="512x512" href="/images/app-icon/icon-512x512.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/images/app-icon/icon-512x512.png">
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Async Callbell Code -->
+    <script>
+        window.callbellSettings = { token: "kbZhkNQPGBu9uur2eTTqcpSx" };
+        (function () { var w = window; var ic = w.callbell; if (typeof ic === "function") { ic('reattach_activator'); ic('update', callbellSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Callbell = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://dash.callbell.eu/include/' + window.callbellSettings.token + '.js'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()
+    </script>
+</head>
+
+<body id="body">
+    <header class="navigation fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand logo" href="/index.html">
+                    <img class="logo-default" src="/images/logo.png" alt="logo" /> <!-- mobile logo -->
+                    <img class="logo-white" src="/images/logo-white.png" alt="logo" /> <!-- desktop logo -->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/pages/courses/courses.html">All Courses</a>
+                                <a class="dropdown-item" href="/pages/favorite-courses/favorite-courses.html">My Favorites</a>
+                            </div>
+                        </li>
+                        <li class="nav-item "><a class="nav-link" href="/pages/tutors/tutors.html">Tutors</a></li>
+                        <li class="nav-item "><a class="nav-link" href="/pages/contact/contact.html">Contact Us</a></li>
+                        
+                        <li class="nav-item "><a id="btn-sign-in" class="nav-link" href="#">Sign In</a></li>
+                        <li id="user-dropdown" style="display: none;" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">username</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a id="btn-sign-out" class="nav-link" href="#">Sign Out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero-slider">
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(/images/slider/slider-bg-1.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+                            Crafting Digital <br>
+                            Experience
+                        </h1>
+                        <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, <br> veritatis tempore
+                            nostrum id
+                            officia quaerat eum corrupti, <br> ipsa aliquam velit.
+                        </p>
+                        <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn btn-main"
+                            href="/pages/about/about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-item th-fullpage hero-area" style="background-image: url(/images/slider/slider-bg-2.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">
+                            We Combine Design <br> and
+                            Creativity
+                        </h1>
+                        <p data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".5">
+                            Create just what you need
+                            for your Perfect Website. Choose from a wide range
+                            <br> of Elements & simply put them on our Canvas.
+                        </p>
+                        <a data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".8" class="btn btn-main"
+                            href="/pages/about/about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="service-2 section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="title text-center">
+                        <h2>What We Do Better</h2>
+                        <p>
+                            As a professional tuition center, we know what our customers want and always thrive to
+                            improve.
+                        </p>
+                        <div class="border"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img src="/images/about/member.jpg" class="inline-block" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row text-center">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <i class="tf-ion-ios-alarm-outline"></i>
+                                <h4>Flexible Schedule</h4>
+                                <p>Multiple timeslots for courses, select your preferred time to study!</p>
+                            </div>
+                        </div><!-- END COL -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <i class="tf-ion-ios-briefcase-outline"></i>
+                                <h4>Up-to-Date Syllabus</h4>
+                                <p>Follows the newest syllabus and study materials set by government!</p>
+                            </div>
+                        </div><!-- END COL -->
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <i class="tf-ion-ios-email-outline"></i>
+                                <h4>Quick Notifications</h4>
+                                <p>We provide notifications related to update you regarding latest news!</p>
+                            </div>
+                        </div><!-- END COL -->
+                    </div>
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section style="margin: 0px auto;">
+        <div class="col-12">
+            <div class="title text-center">
+                <h2>Subscribe to our newsletter</h2>
+                <p>
+                    Never miss out the amazing offers and promotions we have
+                </p>
+                <div class="border"></div>
+            </div>
+        </div>
+        <div style="margin: 0px auto 50px auto;" class="contact-form col-md-6 ">
+            <form id="contact-form" method="post" role="form">
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required>
+                </div>
+
+                <div id="error" class="alert alert-danger" role="alert">
+                    Sorry, don't know what happened. Try later :(
+                </div>
+                <div id="success" class="alert alert-success" role="alert">
+                    <h4 class="alert-heading">Form received!</h4>
+                    <p>Thank you for subscribing to our newsletter.</p>
+                    <hr>
+                    <p class="mb-0">We will update you with latest news.</p>
+                </div>
+                <div id="cf-submit">
+                    <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="call-to-action section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Over 100,000<br />registered users!</h2>
+                    <p>Join us today and pick up some new knowledge!</p>
+                    <a href="/pages/courses/courses.html" class="btn btn-main">View Courses</a>
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row">
+
+                <!-- section title -->
+                <div class="col-12">
+                    <div class="title text-center ">
+                        <h2>Top Tutors</h2>
+                        <div class="border"></div>
+                    </div>
+                </div>
+                <!-- /section title -->
+                <!-- team member -->
+                <div class="col-sm-6">
+                    <div class="team-member text-center">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-fluid" src="/images/team/member-1.jpg" alt="Meghna">
+                            <!-- /member photo -->
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="clearfix">
+                                    <li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-content">
+                            <h3>Michael Jonson</h3>
+                            <span>Head Of Marketing</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam,
+                                culpa odio.</p>
+                        </div>
+                        <!-- /member name & designation -->
+
+                    </div>
+                </div>
+                <!-- end team member -->
+                <!-- team member -->
+                <div class="col-sm-6">
+                    <div class="team-member text-center">
+                        <div class="member-photo">
+                            <!-- member photo -->
+                            <img class="img-fluid" src="/images/team/member-2.jpg" alt="Meghna">
+                            <!-- /member photo -->
+                            <!-- member social profile -->
+                            <div class="mask">
+                                <ul class="clearfix">
+                                    <li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
+                                    <li><a href="#"><i class="tf-ion-social-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- /member social profile -->
+                        </div>
+
+                        <!-- member name & designation -->
+                        <div class="member-content">
+                            <h3>Carrick Mollenkamp</h3>
+                            <span>Web Developer</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam,
+                                culpa odio.</p>
+                        </div>
+                        <!-- /member name & designation -->
+                    </div>
+                </div>
+                <!-- end team member -->
+            </div> <!-- End row -->
+            <br>
+            <div class="row justify-content-center">
+                <a href="/pages/tutors/tutors.html" class="col-8 col-md-4 btn btn-main">View All Tutors</a>
+            </div>
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section class="call-to-action section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Multiple different courses available!</h2>
+                    <p>Multiple popular courses to choose from!</p>
+                    <!--<a href="courses.html" class="btn btn-main">View Courses</a>-->
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section class="team" id="popularCourses">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-center ">
+                        <h2>Popular Courses</h2>
+                        <div class="border"></div>
+                    </div>
+                </div>
+
+            </div><!-- row -->
+            <br>
+            <div class="row justify-content-center">
+                <a href="/pages/courses/courses.html" class="col-8 col-md-4 btn btn-main">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-to-action section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Over 1000<br />positive reviews!</h2>
+                    <p>Look at what other users say about us!</p>
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- End section -->
+
+    <section class="testimonial section" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="testimonial-slider">
+                        <div class="item text-center">
+                            <i class="tf-ion-chatbubbles"></i>
+                            <div class="client-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.
+                                    Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis
+                                    voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?
+                                </p>
+                            </div>
+                            <div class="client-thumb">
+                                <img src="/images/client-logo/clients-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="client-meta">
+                                <h3>William Martin</h3>
+                                <span>CEO , Company Name</span>
+                            </div>
+                        </div>
+                        <div class="item text-center">
+                            <i class="tf-ion-chatbubbles"></i>
+                            <div class="client-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.
+                                    Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis
+                                    voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?
+                                </p>
+                            </div>
+                            <div class="client-thumb">
+                                <img src="/images/client-logo/clients-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="client-meta">
+                                <h3>Emma Harrison</h3>
+                                <span>CEO , Company Name</span>
+                            </div>
+                            <!-- /client photo -->
+                        </div>
+                        <div class="item text-center">
+                            <i class="tf-ion-chatbubbles"></i>
+                            <!-- client info -->
+                            <div class="client-details">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.
+                                    Eos earum, magni asperiores, unde corporis labore, enim, voluptatum officiis
+                                    voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Quia, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?
+                                </p>
+                            </div>
+                            <div class="client-thumb">
+                                <img src="/images/client-logo/clients-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="client-meta">
+                                <h3>Alexander Lucas</h3>
+                                <span>CEO , Company Name</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end col lg 12 -->
+            </div> <!-- End row -->
+        </div> <!-- End container -->
+    </section> <!-- End Section -->
+
+    <footer id="footer" class="bg-one">
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <ul>
+                            <li>
+                                <h3>Contacts:</h3>
+                            </li>
+                            <li><a href="#">phone: 03-12345678</a></li>
+                            <li><a href="#">email: mail123@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12">
+                        <ul>
+                            <li>
+                                <h3>Connect with us Socially</h3>
+                            </li>
+                            <div class="addthis_inline_follow_toolbox"></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h5>Copyright 2016. All rights reserved.</h5>
+            <h6>Design and Developed by <a href="">Themefisher</a></h6>
+            <h6>Distributed by <a href="https://themewagon.com/">Themewagon</a></h6>
+        </div>
+    </footer>
+
+    <!-- Main jQuery -->
+    <script src="/plugins/jquery/jquery.min.js"></script>
+    <!-- Form Validation -->
+    <script src="/plugins/form-validation/jquery.form.js"></script>
+    <script src="/plugins/form-validation/jquery.validate.min.js"></script>
+    <!-- Bootstrap4 -->
+    <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox -->
+    <script src="/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="/plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="/plugins/filterizr/jquery.filterizr.min.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="/plugins/smooth-scroll/smooth-scroll.min.js"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-612cea0b8f8426f2"></script>
+    <!-- Custom js -->
+    <script src="/script.js"></script>
+    <script type="module" src="/index.js"></script>
+</body>
+
+</html>
